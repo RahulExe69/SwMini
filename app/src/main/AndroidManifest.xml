@@ -41,7 +41,7 @@
 
 		<provider
 			android:name=".LogProvider"
-			android:authorities="SwMini.UnknownMod"
+			android:authorities="net.rahulexe.swordigounbound.logs"
 			android:exported="false"
 			android:grantUriPermissions="true" />
 	</application>

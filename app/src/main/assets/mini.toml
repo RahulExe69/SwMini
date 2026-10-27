@@ -3,9 +3,9 @@
 
 # Mod Info for Overlay
 [mod_overlay]
-name = "SwordigoMini"
-authors = ["ItsJustSomeDude"]
-version = "1.5"
+name = "Swordigo Unbound"
+authors = ["RahulExe69"]
+version = "0.1.0"
 
 # You may use simple HTML tags in this string to define the Readme portion of the overlay.
 # Allowed:
@@ -15,16 +15,12 @@ version = "1.5"
 # <h1-6>Header</h1-6>
 # <a href="https://google.com/">Click here!</a>
 readme = """
-<h1>Welcome to SwMini!</h1>
+<h1>Welcome to Swordigo Unbound!</h1>
 
-SwMini is a mod loader with the goal of adding more abilities for modders to use, and polishing some
-rough edges from Vanilla.
-
-If you've downloaded SwMini for the purpose of creating a mod, then welcome! I hope you enjoy your
-stay! There's some documentation at <a href="https://github.com/ItsJustSomeDude/SwMini">Mini's GitHub</a>
-if you run into problems. Feel free to reach out to me (ItsJustSomeDude) on Discord if you still need help.
-
-If you downloaded a mod and are seeing this... tell the modder to replace this text! :-D
+<p>An experimental Swordigo mod built on the SwMini framework.</p>
+<p>Prototype change: the Soul Shard limit is raised to 65,535.</p>
+<p>This project is in an early testing stage. Back up your save data before trying experimental builds.</p>
+<p>Source code, build notes, and issue tracking are available on the <a href="https://github.com/RahulExe69/SwMini">project repository</a>.</p>
 """
 
 
@@ -53,7 +49,7 @@ pauseOnLostFocus = true
 too_rich_threshold = 999
 
 # These values can be changed in-game with Lua scripts, but the defaults can be changed here.
-coin_limit = 999
+coin_limit = 65535
 # Engine Speed (Frame rate + Physics + Timers)
 engine_speed = 1
 
