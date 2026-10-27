@@ -1,8 +1,18 @@
-# SwMini
+# Swordigo Unbound
 
-SwMini is a Mod Loader, Library, and Patch Set for the mobile game Swordigo® by TouchFoo™. It adds
-the ability to easily change hard-coded vanilla features, expands the Vanilla Lua libraries, improve
-logging, expand functionality, and allow easier modifications.
+An experimental Swordigo mod built on top of [SwMini](https://github.com/ItsJustSomeDude/SwMini).
+This fork keeps SwMini's Android/C/Lua modding foundation and technical documentation while adding
+our own mod identity and gameplay experiments.
+
+**Current stage:** foundation prototype. The configured first gameplay tweak raises the Soul Shard
+limit to 65,535, but it has **not yet been built or tested on-device**.
+
+**Target base game:** Swordigo 1.4.12, build 47, as documented by SwMini. The repository deliberately
+does not include TouchFoo's copyrighted native game library, Java classes, music, or game resources.
+To build, use a legitimate matching APK locally; do not commit the APK or extracted copyrighted files.
+
+The underlying framework and reverse-engineering work remain credited to the original SwMini authors.
+The technical documentation below describes the available framework APIs and build process.
 
 This is accomplished through two main pieces: First, a full replacement of the Java portion of
 Vanilla which handles initialization, system interfaces, and music. The second (and larger) piece is

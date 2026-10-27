@@ -18,11 +18,11 @@ android {
 	}
 
 	defaultConfig {
-		applicationId 'net.itsjustsomedude.swrdg'
+		applicationId 'net.rahulexe.swordigounbound'
 		minSdk = 24
 		targetSdk = 36
-		versionCode 46
-		versionName '1.4.12'
+		versionCode 1
+		versionName '0.1.0'
 	}
 
 	externalNativeBuild {
@@ -91,7 +91,7 @@ android {
 	applicationVariants.configureEach { /* com.android.build.gradle.internal.api.ApplicationVariantImpl */ variant ->
 		variant.outputs.configureEach { output ->
 			if (variant.buildType.name == "release") {
-				def appName = "SwordigoMini"
+				def appName = "SwordigoUnbound"
 				def versionName = variant.versionName
 				def versionCode = variant.versionCode
 				outputFileName = "${appName}_${versionName}_${versionCode}.apk"
